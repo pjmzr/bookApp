@@ -1,0 +1,48 @@
+.book {
+  display: flex;
+  background-color: #303030;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.book img {
+  width: 55px;
+  border-radius: 4px;
+}
+.info {
+  width: 100%;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info h2 {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 700;
+}
+.info h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.info p {
+  font-size: 11px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+.info p span {
+  margin-left: 20px;
+}
+
+.book button {
+  height: fit-content;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.book button:hover {
+  transform: scale(1.2);
+}
